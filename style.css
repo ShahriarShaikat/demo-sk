@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  margin: 50px auto;
+}
+.mid {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.top,
+.bottom {
+  width: 100%;
+  text-align: center;
+}
+.top h1 {
+  text-align: center;
+  font-size: 33px;
+  font-family: math;
+  font-weight: bold;
+  color: green;
+}
+.top h1 a {
+  padding: 10px;
+  background: #109b10;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.bottom img {
+  width: 70px;
+}
+.bottom span {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 400px) {
+  .bottom {
+    flex-direction: column;
+  }
+}
